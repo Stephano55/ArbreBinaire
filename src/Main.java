@@ -5,11 +5,16 @@ public class Main {
         ArbreEntier a = new ArbreEntier(0, null, null);
         ArbreEntier b = new ArbreEntier(10, null, null);
         ArbreEntier c = new ArbreEntier(8, a, b);
+        ArbreEntier d = new ArbreEntier(-3,null,null);
+        ArbreEntier e = new ArbreEntier(-1,c,d);
+        ArbreEntier f = new ArbreEntier(4, null, null);
+        ArbreEntier g = new ArbreEntier(-7, f, e);
+        g.Prefixe();
     }
 }
 /*********************
         TRAVAIL A FAIRE:
-      (FILTRES):
+      (FILTRES): 
  **Travail de recherche:
       --Structure de Rauch: Passe bas, haut, coupe bande, passe bande;
       --Structure de Sallen-Key: Passe bas, haut, coupe bande, passe bande;

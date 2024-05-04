@@ -27,4 +27,13 @@ public class ArbreEntier {
     public void setGauche(ArbreEntier gauche) {
         this.gauche = gauche;
     }
+    public void Prefixe(){
+        System.out.print(this.valeur+" ");
+        if (this.gauche != null){
+            gauche.Prefixe();
+        }
+        if (this.droite != null) {
+           droite.Prefixe();
+        }
+    }
 }
