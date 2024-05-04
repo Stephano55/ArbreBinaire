@@ -9,7 +9,7 @@ public class Main {
         ArbreEntier e = new ArbreEntier(-1,c,d);
         ArbreEntier f = new ArbreEntier(4, null, null);
         ArbreEntier g = new ArbreEntier(-7, f, e);
-        g.Prefixe();
+        g.Sufixe();
     }
 }
 /*********************

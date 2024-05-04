@@ -36,4 +36,23 @@ public class ArbreEntier {
            droite.Prefixe();
         }
     }
+    public void Infixe(){
+        if (this.gauche != null){
+            gauche.Infixe();
+        }
+        System.out.print(this.valeur+" ");
+        if (this.droite != null) {
+            droite.Infixe();
+        }
+    }
+    public void Sufixe(){
+        if (this.gauche != null){
+            gauche.Sufixe();
+        }
+        if (this.droite != null){
+            droite.Sufixe();
+        }
+        System.out.println(this.valeur+" ");
+    }
+
 }
