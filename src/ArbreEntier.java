@@ -52,7 +52,7 @@ public class ArbreEntier {
         if (this.droite != null){
             droite.Sufixe();
         }
-        System.out.println(this.valeur+" ");
+        System.out.print(this.valeur+" ");
     }
 
 }
